@@ -9,11 +9,15 @@ fun main() {
     println(str)
     str = "Hello! This is Dipesh Yadav"
     println(str)
+    println(str.length)
 
 //    str = 123       // Error
 
-    val age : String = "" + 42
+    val age : String = "" + 42 + "!"
     println(age)
+
+    val grade : Char = 'A'
+    println("Unicode of A is : " + grade.code)         // returns the unicode of letter
 
     // To include multiple subtypes we use "Any"
     var x : Any = "ABC"
